@@ -1,27 +1,28 @@
 # Python for SEO
 
-A small collection of Python scripts I use for SEO automation:  
-Google Search Console exports, Google Sheets workflows, and data/table utilities.
+Small collection of Python scripts I use in SEO workflows:  
+Google Sheets automation, Google Search Console export, and table processing.
 
 ## Scripts
 
-### openai/sheets_generate_descriptions.py
-Generate product/category descriptions from rows in Google Sheets using OpenAI API.
+### openai_sheets_generate.py
+Generate descriptions from Google Sheets using OpenAI API.
 
-### gsc/gsc_export.py
-Export Google Search Console data (queries/pages) into CSV for analysis.
+### gsc_export.py
+Export Google Search Console data (queries/pages) into CSV.
 
-### spreadsheets/table_tool_1.py
-Utility script for table processing (WIP: add description).
+### table_tool_1.py
+Table processing utility script.
 
-### spreadsheets/table_tool_2.py
-Utility script for table processing (WIP: add description).
+### table_tool_2.py
+Table processing utility script.
 
-## Setup
+## Environment variables
 
-1) Install dependencies:
-```bash
-pip install -r requirements.txt
+OPENAI_API_KEY  
+GOOGLE_APPLICATION_CREDENTIALS  
+
+Scripts use local environment variables for authentication.
 
 ## Environment variables
 
