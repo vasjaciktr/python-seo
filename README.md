@@ -22,3 +22,7 @@ Utility script for table processing (WIP: add description).
 1) Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+## Environment variables
+
+OPENAI_API_KEY2
