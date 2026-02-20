@@ -11,19 +11,19 @@ Generate descriptions from Google Sheets using OpenAI API.
 ### gsc_export.py
 Export Google Search Console data (queries/pages) into CSV.
 
-### table_tool_1.py
-Table processing utility script.
+### csv_splitter.py
+Split large CSV into smaller files with header preserved and optional ZIP archive.
+
+Use cases:
+- bulk imports with row limits
+- feed splitting
+- large dataset handling
 
 ### table_tool_2.py
 Table processing utility script.
 
 ## Environment variables
 
-OPENAI_API_KEY  
-GOOGLE_APPLICATION_CREDENTIALS  
+OPENAI_API_KEY  2
 
 Scripts use local environment variables for authentication.
-
-## Environment variables
-
-OPENAI_API_KEY2
