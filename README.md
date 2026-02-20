@@ -19,9 +19,6 @@ Use cases:
 - feed splitting
 - large dataset handling
 
-### table_tool_2.py
-Table processing utility script.
-
 ## Environment variables
 
 OPENAI_API_KEY  2
