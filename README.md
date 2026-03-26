@@ -19,6 +19,9 @@ Use cases:
 - feed splitting
 - large dataset handling
 
+### lost-backlinks-check.py
+Check whether purchased backlinks are still there. The script returns page code status, redirected URL, found backlinks, and errors.
+
 ## Environment variables
 
 OPENAI_API_KEY  2
